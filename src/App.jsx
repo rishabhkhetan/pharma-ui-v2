@@ -15,6 +15,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sidebar from "./components/ui/Sidebar";
 import AdminInventory from "./pages/AdminInventory";
 import OrderHistory from "./pages/OrderHistory";
+import Requests from "./pages/Requests";
+
 
 export default function App() {
   return (
@@ -25,6 +27,8 @@ export default function App() {
           <Routes>
             <Route path="/" element={<AdminInventory />} />
             <Route path="/orders" element={<OrderHistory />} />
+            <Route path="/requests" element={<Requests />} />
+
           </Routes>
         </main>
       </div>
