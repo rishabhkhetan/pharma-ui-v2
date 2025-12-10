@@ -5,9 +5,10 @@ export default function Requests() {
 
       {/* Pending Requests */}
       <div className="space-y-4">
-        <h2 className="text-xl font-semibold text-gray-300">
-          Pending Requests
-        </h2>
+        <h2 className="text-lg font-bold text-purple-500 mb-4">
+  Pending Requests
+</h2>
+
 
         <div className="overflow-hidden rounded-xl border border-white/10 bg-white/5">
           <table className="w-full text-left">
@@ -38,7 +39,7 @@ export default function Requests() {
 
       {/* Approved Requests */}
       <div className="space-y-4">
-        <h2 className="text-xl font-semibold text-gray-300">
+        <h2 className="text-lg font-bold text-purple-500 mb-4">
           Approved Requests
         </h2>
 
